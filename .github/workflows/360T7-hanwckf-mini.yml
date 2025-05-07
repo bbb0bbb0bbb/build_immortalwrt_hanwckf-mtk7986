@@ -1,4 +1,4 @@
-name: 360T7-padavanonly-mini
+name: 360T7-hanwckf-mini
 
 on:
   repository_dispatch:
@@ -12,7 +12,7 @@ on:
     - cron: '0 17 * * 1'
 
 env:
-  REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x
+  REPO_URL: https://github.com/hanwckf/immortalwrt-mt798x
   REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: ./doc/config/mt7986-ax6000-mtwifi-cfg.config
